@@ -65,6 +65,7 @@ const el9 = document.getElementById("9")
 const elO = document.getElementById(".")
 const elP = document.getElementById("+")
 const elM = document.getElementById("*")
+const elI = document.getElementById("-")
 const elD = document.getElementById("/")
 const elE = document.getElementById("=")
 
@@ -81,6 +82,7 @@ el9.addEventListener("click", add9);
 elO.addEventListener("click", addO)
 elP.addEventListener("click", addP);
 elM.addEventListener("click", mult);
+elI.addEventListener("click", Minu);
 elD.addEventListener("click", divi);
 elE.addEventListener("click", Equals);
 
@@ -122,6 +124,9 @@ function addP() {
 }
 function mult() {
     n1.innerHTML += "*"
+}
+function Minu() {
+    n1.innerHTML += "-"
 }
 function divi() {
     n1.innerHTML += "/"
