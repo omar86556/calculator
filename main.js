@@ -134,3 +134,4 @@ function divi() {
 function Equals() {
     n1.innerHTML = eval(n1.innerHTML)
 }
+//update
